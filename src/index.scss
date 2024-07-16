@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600;800&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  @apply m-0 p-0 font-body;
+  background: #121212;
+}
+
+.leaflet-container .leaflet-control-attribution {
+  display: none;
+}
+
+a canvas {
+  width: 100%!important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
